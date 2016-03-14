@@ -1,0 +1,97 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Worthly</title>
+
+  <!-- Importing stylesheets -->
+
+  <!--importing fullpage.css -->
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+  <!--importing stylesheet-->
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+<!-- lägger till meny -->
+<ul id="menu">
+  <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+  <li data-menuanchor="secondPage"><a href="#secondPage">The map</a></li>
+  <li data-menuanchor="3rdPage"><a href="#3rdPage">Statistics</a></li>
+  <li data-menuanchor="4thPage"><a href="#4thpage">About us</a></li>
+</ul>
+
+  <!--All pages -->
+<div id="fullpage">
+
+     <div class="section" id="section0">
+       <div class="intro">
+        <div class="container">
+          <div class="box">
+         <h1 id="title">Worthly</h1>
+         <p id="slogan">Where can you afford to live?</p>
+         <p id="extraInfo"><em>Input the amount you have for down payment and press enter</em></p>
+         
+         <input id="downPayment" type="number" placeholder="Down payment in SEK"> </input>
+       </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="section" id="section1">
+         <div id="map"></div>
+        <div id="newSearch">
+         <p id="newSearchA"><em>psst, refresh the website before doing a new search</em></a>
+       </div>
+     </div>
+
+     <div class="section" id="section2">
+      <div id="logo"><img id="logo1" src="imgs/logo.png"></img></div>
+      <ul id="bulletPoint">
+        <li>Housing prices in Stockholm has gone up <mark>15%</mark> the last year</li>
+        <li>The average salary in Stockholm is roughly 280000 SEK per year, or <mark>24000 SEK</mark> a month</li>
+      </ul>
+     </div>
+
+     <div class="section" id="section3">
+         <div id="aboutUs">
+          <h1>About us</h1>
+          <p> We are a team of future brilliant digital strategist attending Hyper island in Stockholm. <br> This website is a student project where we explored HTML, CSS and javascript with Api's to visualize data.<br> We also wanted to shed some light over the current housing situation in Stockholm. <br> How much do you really need to afford a place in Stockholm and where can you find your home!</p>
+         </div>
+         <div id="contact">
+          <h1>Group members</h1>
+          <ul>
+            <li>Linn Persson<br><em>linn.persson@hyperisland.se</em></li>
+            <li>Oscar Jäderberg<br><em>oscar.jaderberg@hyperisland.se</em></li>
+            <li>Albin Båtelsson<br><em>albin.batelsson@hyperisland.se</em></li>
+            <li>Caroline Roeck Hansen<br><em>caroline.roeckhansen@hyperisland.se</em></li>
+            <li>Evgeniya Shcherbakova<br><em>evgeniya.shcherbakova@hyperisland.se</em></li>
+          </ul>
+         </div>
+     </div>
+<!--stänger fullpage -->
+</div>
+
+
+<!-- importing javascript -->
+
+<!--importing database-->
+<script type="text/javascript" src="data.js"></script>
+
+<!--importing jquery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<!--importing fullpage.js -->
+<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="fullPage.js"></script>
+
+<script type="text/javascript" src="map.js"></script>
+
+<!--google visualization -->
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbwcQXOrpxbUzDB1SlmJfT1K5mVKjei4&signed_in=true&libraries=visualization&callback=initMap">
+</script>
+
+</body>
+</html>

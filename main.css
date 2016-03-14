@@ -1,0 +1,176 @@
+body {
+	font-family: futura;
+}
+
+.section {
+	text-align:center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.box input {
+	margin-bottom: 5%;
+	height: 80%;
+	width: 40%;
+	font-size: 2rem;
+	text-align: center;
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 0;
+}
+
+.container {
+        width:100%;
+}
+
+div.box {
+	background: rgba(0,0,0,0.80);
+	float:center;
+	margin: 5% 10% 30% 10%;
+}
+
+#title {
+	color: #f8e03e;
+	font-size: 14rem;
+	margin-bottom: 0%;
+}
+
+#slogan {
+	color: #f8e03e;
+	font-size: 3rem;
+	position:center;
+	margin-top: 0%;
+	margin-bottom: 10%;
+}
+
+#extraInfo{
+	font-size: 1rem;
+	color: #f8e03e;
+}
+
+#newSearch{
+	position: center;
+	top: 3%;
+	left: 50%;
+	z-index: 99999;
+}
+
+#newSearch p{
+			background: rgba(0,0,0,0.65);
+			padding: 7px;
+			margin: 2px;
+			color: #f8e03e;
+			display: inline-block;
+}
+
+
+
+#menu{
+			position:fixed;
+			top: 3%;
+			left: 0%;
+			z-index: 99999;
+}
+
+#menu a{
+			background: rgba(0,0,0,0.65);
+			padding: 7px;
+			margin: 2px;
+			color: #ccc;
+			display: inline-block;
+		}
+#menu a:hover{
+			color: #fff;
+			background: #81A140;
+		}
+
+#map{
+	height: 80%;
+	width: 80%;
+
+	position: center;
+	right: 10%;
+	left: 10%;
+	padding-bottom: 15%;
+}
+
+#section0{
+		background-image: url(imgs/bg1.jpg);
+		background-size: cover;
+}
+
+.images{
+	width:50%;
+	float: left;
+}
+
+.img{
+	width: 70%;
+	height: 70%;
+}
+
+
+#aboutUs{
+	text-align: left;
+	float: left;
+	padding-left: 12%;
+	max-width:50%;
+}
+
+#aboutUs p{
+	font-size: 2rem;
+}
+
+#aboutUs h1{
+	font-size: 3rem;
+}
+
+#contact{
+	text-align: left;
+	float:left;
+	padding-right: 5%;
+	max-width: 50%;
+}
+
+#contact h1{
+	font-size: 3rem;
+}
+
+#contact li{
+	font-size: 1.8rem;
+}
+
+#contact em{
+	font-size: 1rem;
+}
+
+#bulletPoint{
+	text-align:left;
+	list-style-type: disc;
+	font-size: 3rem;
+	padding-left: 15%;
+	padding-right: 10%;
+	color: #ade0d8;
+	margin-bottom: 20%;
+
+}
+
+#bulletPoint li{
+	margin: 5% 0;
+}
+
+mark {
+	background-color: #f8e03e;
+	font-size: 4rem;
+}
+
+
+#logo1{
+	position:center;
+	max-width:20%;
+	max-height:20%;
+	padding-top:5%;
+}
